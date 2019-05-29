@@ -14,7 +14,8 @@
   
   - HOG (Histogram Oriented Gradients) : Construct the features vector for each image using 5 clustered RGB colors, sorted by color frequency.
   
-  - LogisticRegression : We use [Logistic Regression](https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/setup_model.py#L6) model to classify the feature vectors built from the HOG.Implement the Gradient Descent method to optimize the model.
+  - LogisticRegression : We use [Logistic Regression](https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/setup_model.py#L6) model to classify the feature vectors built from the HOG.
+    Implement the Gradient Descent method to optimize the model.
        ```
         batch_size = 32
         epochs = 10
