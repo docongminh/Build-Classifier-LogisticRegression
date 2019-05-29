@@ -24,10 +24,27 @@
        ````
   - Accuracy: 73.8 % with 1206 samples ( validation set = 20% , training set = 80%)
     - Output K-means Clustering with centroid = 5: 
-        <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/kmean.png">
+      <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/kmean.png">
+       
     - Ouput HOG:
-        <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/hog.png">
+      <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/hog.png">
   
+# Tree Project
+```
+  Classification/
+                model/
+                      model.sav # model results after training
+                resources_data/
+                        countryside         # contains data of countryside ( have some image for intuition)
+                        metropolitian       # contains data of metropilitian ( have some image for intuition)
+                        image_predict       # contains image for test predict
+                        output_image_test   # some results of k-mean and hog
+                predict.py                  # predict some image from resources_data/image_predict with args pathto model
+                preprocess_image.py         # contains imread data, fit k-mean and hog
+                setup_model.py              # Build LogisicRegression from scatch
+                train.py                    # start training with args path data train
+                      
+```
 
 # USAGE:
 ## Requirements
