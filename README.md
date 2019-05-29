@@ -23,10 +23,21 @@
         
        ````
   - Accuracy: 73.8 % with 1206 samples ( validation set = 20% , training set = 80%)
+    - Output K-means Clustering with centroid = 5: 
+        <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/kmean.png">
+    - Ouput HOG:
+        <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/hog.png">
   
 
-
 # USAGE:
+## Requirements
+   ```
+      skimage
+      opencv-python
+      numpy
+      matplotlib
+      sklearn
+   ```
 ## Training
   `python train.py --inputcountry path_to_countrydata/ --inputmetro path_to_metropolitiandata/`
 ## prediction
