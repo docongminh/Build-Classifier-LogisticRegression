@@ -27,7 +27,9 @@
   - Output K-means Clustering with centroid = 5:
   
      <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/kmean.png">
-     
+   - Vector Histogram:
+   
+     <img src = "https://github.com/minhhaui/Build-Classifier-LogisticRegression/blob/master/resources_data/output_image_test/Screenshot%20from%202019-06-01%2022-47-59.png">
    - Ouput HOG:  
    
      <img src = "https://github.com/minhhaui/Classification-With-HOG-K-mean-Logistic/blob/master/resources_data/output_image_test/hog.png">
